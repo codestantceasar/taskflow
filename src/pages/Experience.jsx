@@ -33,7 +33,7 @@ function Experience() {
     },
     {
       role: "Creative Sales Representative",
-      company: "Paul Iyke Ventures",
+      company: "Paul & cc Enterprise",
       period: "2019 – 2024",
       description:
         "Supported sales operations, customer communication, relationship building, and KPI-driven business growth initiatives.",

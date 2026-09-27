@@ -1,16 +1,129 @@
-# React + Vite
+# Taskflow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskflow is a personal portfolio website built with React and Vite to showcase my experience, projects, certifications, skills, and professional journey as a Software Engineering student.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio serves as my professional online presence where recruiters, collaborators, and employers can learn more about my background, technical skills, and accomplishments.
 
-## React Compiler
+The website includes:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Home page
+* About page
+* Projects showcase
+* Professional experience
+* Certifications
+* Resume download
+* Contact information
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* React Router DOM
+* Tailwind CSS
+* JavaScript
+* HTML5
+* CSS3
+
+## Featured Skills
+
+* Python
+* JavaScript
+* Dart
+* Flutter
+* Machine Learning
+* Data Analysis
+* REST APIs
+* Git & GitHub
+* Linux
+* Problem Solving
+
+## Certifications
+
+* Neural Networks and Deep Learning
+* R Programming
+* Flutter and Dart: Developing iOS, Android, and Mobile Apps
+* Financial Planning for Young Adults
+
+## Projects
+
+### Portfolio Website
+
+A modern personal portfolio designed to showcase professional achievements, projects, and technical skills.
+
+### Machine Learning Projects
+
+Collection of machine learning assignments and experiments covering:
+
+* Classification
+* Neural Networks
+* Principal Component Analysis (PCA)
+* Data Analysis
+* Model Evaluation
+
+### ConstructionConnect
+
+A collaborative software project focused on connecting construction professionals and opportunities.
+
+## Resume
+
+Visitors can download my latest resume directly from the website.
+
+## Contact
+
+**Email:** [c.akas@alustudent.com](mailto:c.akas@alustudent.com)
+
+**LinkedIn:** linkedin.com/in/constantineakas
+
+**GitHub:** github.com/codestantceasar
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/codestantceasar/taskflow.git
+```
+
+Move into the project folder:
+
+```bash
+cd taskflow
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+The project is deployed using Vercel and automatically redeploys whenever changes are pushed to the main branch.
+
+## Author
+
+**Constantine Akas**
+
+Software Engineering Student at African Leadership University
+
+Passionate about software development, machine learning, entrepreneurship, and building technology-driven solutions that create meaningful impact.

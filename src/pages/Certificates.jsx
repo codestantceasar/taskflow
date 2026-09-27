@@ -31,6 +31,14 @@ function Certificates() {
       skills: "Financial Literacy, Budgeting, Personal Finance",
       link: "https://www.coursera.org/account/accomplishments/certificate/TM5FPMR5YHRD",
     },
+    {
+  title: "ALX Virtual Assistant Program",
+  provider: "ALX Africa",
+  issued: "2024",
+  skills:
+    "Email Management, Calendar Management, Communication, Organization, Remote Work",
+  link: "/ALX_Virtual_Assistant_Certificate.png",
+},
   ];
 
   return (

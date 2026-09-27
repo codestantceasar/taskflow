@@ -32,13 +32,14 @@ function Certificates() {
       link: "https://www.coursera.org/account/accomplishments/certificate/TM5FPMR5YHRD",
     },
     {
-  title: "ALX Virtual Assistant Program",
-  provider: "ALX Africa",
-  issued: "2024",
-  skills:
-    "Email Management, Calendar Management, Communication, Organization, Remote Work",
-  link: "/ALX_Virtual_Assistant_Certificate.png",
-},
+      title: "ALX Virtual Assistant Program",
+      provider: "ALX Africa",
+      issued: "2024",
+      skills:
+        "Email Management, Calendar Management, Communication, Organization, Remote Work",
+      link: "/ALX_Virtual_Assistant_Certificate.png",
+      image: "/ALX_Virtual_Assistant_Certificate.png",
+    },
   ];
 
   return (
@@ -75,6 +76,14 @@ function Certificates() {
               <p className="mb-5 text-slate-400">
                 {cert.skills}
               </p>
+
+              {cert.image && (
+                <img
+                  src={cert.image}
+                  alt={cert.title}
+                  className="mb-4 w-full rounded-xl border border-slate-700"
+                />
+              )}
 
               <a
                 href={cert.link}

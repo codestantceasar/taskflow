@@ -74,9 +74,9 @@ Visitors can download my latest resume directly from the website.
 
 **Email:** [c.akas@alustudent.com](mailto:c.akas@alustudent.com)
 
-**LinkedIn:** linkedin.com/in/constantineakas
+**LinkedIn:** [www.linkedin.com/in/constantine-akas-](https://www.linkedin.com/in/constantine-akas-/)
 
-**GitHub:** github.com/codestantceasar
+**GitHub:** [[github.com/codestantceasar]](https://github.com/codestantceasar/taskflow)
 
 ## Installation
 

@@ -4,17 +4,17 @@ import Footer from "../components/Footer";
 function Projects() {
   const projects = [
     {
-      title: "PortfolioFlow AI",
+      title: "Taskflow",
       tech: ["React", "Vite", "Tailwind CSS"],
       description:
-        "A portfolio management platform that helps users showcase projects, certifications, skills, and professional experience.",
-      github: "#",
+        "Personal portfolio platform showcasing projects, certifications, skills, experience, and career achievements.",
+      github: "https://github.com/codestantceasar/taskflow",
     },
     {
       title: "Spotlight",
       tech: ["Flutter", "Dart", "Firebase"],
       description:
-        "A talent discovery platform where creators can showcase their skills and gain visibility.",
+        "Talent discovery platform where creators showcase skills, gain visibility, and build professional profiles.",
       github:
         "https://github.com/codestantceasar/Spotlight--formative-assignment-2",
     },
@@ -22,23 +22,23 @@ function Projects() {
       title: "ConstructionConnect",
       tech: ["Flutter", "Firebase"],
       description:
-        "A construction marketplace connecting contractors, suppliers, and clients.",
+        "Construction marketplace connecting contractors, suppliers, and clients.",
       github:
         "https://github.com/Shumbusho43/constructionconnect",
     },
     {
-      title: "Nigeria Transparency Program",
-      tech: ["HTML", "CSS", "JavaScript"],
+      title: "Connect Care Rwanda",
+      tech: ["Flutter", "Healthcare"],
       description:
-        "A civic technology platform focused on transparency, accountability, and citizen engagement.",
+        "Healthcare-focused application designed to improve access to medical information and services.",
       github:
-        "https://github.com/codestantceasar/Nigeria-Transparency-program",
+        "https://github.com/codestantceasar/connect-care-Rwanda",
     },
     {
       title: "ALU Machine Learning",
       tech: ["Python", "NumPy", "Machine Learning"],
       description:
-        "Machine learning projects covering neural networks, classification, regression, and model evaluation.",
+        "Collection of machine learning projects covering classification, neural networks, model evaluation, and predictive analytics.",
       github:
         "https://github.com/codestantceasar/alu-machine_learning",
     },
@@ -46,9 +46,25 @@ function Projects() {
       title: "Linear Regression Model",
       tech: ["Python", "Jupyter Notebook"],
       description:
-        "Implementation of linear regression algorithms for predictive analytics and data modeling.",
+        "Predictive analytics project implementing linear regression techniques for data modeling.",
       github:
         "https://github.com/codestantceasar/linear_regression_model",
+    },
+    {
+      title: "Nigeria Transparency Program",
+      tech: ["HTML", "CSS", "JavaScript"],
+      description:
+        "Civic technology platform focused on transparency, accountability, and citizen engagement.",
+      github:
+        "https://github.com/codestantceasar/Nigeria-Transparency-program",
+    },
+    {
+      title: "DSA Sparse Matrix",
+      tech: ["Python", "Data Structures"],
+      description:
+        "Data structures and algorithms project focused on sparse matrix implementation and optimization.",
+      github:
+        "https://github.com/codestantceasar/DSA-HW01---Sparse-Matrix",
     },
   ];
 
@@ -56,14 +72,15 @@ function Projects() {
     <div className="min-h-screen bg-slate-950 text-white">
       <Navbar />
 
-      <div className="mx-auto max-w-6xl px-6 py-16">
+      <div className="mx-auto max-w-7xl px-6 py-16">
         <h1 className="mb-4 text-5xl font-bold">
           Projects
         </h1>
 
         <p className="mb-12 text-slate-400">
-          Software engineering, mobile development, machine learning,
-          and entrepreneurship projects.
+          A collection of software engineering, mobile development,
+          machine learning, and problem-solving projects built throughout
+          my academic and professional journey.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -80,7 +97,7 @@ function Projects() {
                 {project.tech.map((item) => (
                   <span
                     key={item}
-                    className="rounded-full bg-slate-800 px-3 py-1 text-sm"
+                    className="rounded-full bg-slate-800 px-3 py-1 text-sm text-slate-300"
                   >
                     {item}
                   </span>
@@ -91,22 +108,38 @@ function Projects() {
                 {project.description}
               </p>
 
-              {project.github !== "#" ? (
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-semibold text-cyan-400 hover:underline"
-                >
-                  View GitHub →
-                </a>
-              ) : (
-                <span className="text-slate-500">
-                  Coming Soon
-                </span>
-              )}
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-cyan-400 hover:underline"
+              >
+                View GitHub →
+              </a>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16 rounded-2xl border border-slate-800 bg-slate-900 p-8 text-center">
+          <h2 className="mb-4 text-3xl font-bold">
+            30+ Additional GitHub Repositories
+          </h2>
+
+          <p className="mb-6 text-slate-400">
+            My GitHub profile contains additional repositories covering
+            Machine Learning, Backend Development, DevOps, Linux,
+            Data Structures & Algorithms, Web Development, API
+            integrations, and collaborative university projects.
+          </p>
+
+          <a
+            href="https://github.com/codestantceasar"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block rounded-xl bg-cyan-500 px-6 py-3 font-semibold text-black transition hover:scale-105"
+          >
+            View GitHub Profile
+          </a>
         </div>
       </div>
 
